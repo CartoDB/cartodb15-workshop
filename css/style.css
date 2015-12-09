@@ -70,8 +70,8 @@ a {
 
 .widget-filter.is-active:before,
 .widget-filter:hover:before {
-  background: #3AA9E3;
-  border: 1px solid #3AA9E3;
+  background: #006993;
+  border: 1px solid #006993;
 }
 
 .widget-filter-clear {
@@ -80,7 +80,7 @@ a {
   top: 20px;
   font-size: 9px;
   text-transform: uppercase;
-  color: #3AA9E3;
+  color: #006993;
   line-height: 14px;
 }
 
