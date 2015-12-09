@@ -15,6 +15,10 @@ var main = function(vis, layers) {
 var onVisCreated = function(vis, layers) {
   var sublayer = layers[1].getSubLayer(0);
 
+  sublayer.infowindow.set({
+    template: document.getElementById('infowindowTemplate').innerHTML
+  });
+
   var originalSQL = sublayer.getSQL();
   var originalCartoCSS = sublayer.getCartoCSS();
   var widgets = new Widgets();
